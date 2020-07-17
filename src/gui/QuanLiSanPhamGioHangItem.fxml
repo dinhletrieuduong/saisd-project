@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: c4ffef;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="64.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../images/iphone.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_LEFT" layoutX="78.0" layoutY="12.0" prefHeight="40.0" prefWidth="300.0" text="IPHONE 11 Pro Plus Chính hãng Real Hàng Thiệt Bảo Hành 100% Trong 10 năm" wrapText="true" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="237.0" AnchorPane.topAnchor="12.0" />
+      <Label layoutX="386.0" layoutY="12.0" prefHeight="19.0" text="9.900.900 Đ" AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="12.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER_RIGHT" layoutX="78.0" layoutY="43.0" mnemonicParsing="false" style="-fx-background-color: #0000; -fx-label-padding: 0; -fx-padding: 0;" text="Xóa" textFill="RED" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="78.0" />
+      <Button layoutX="477.0" layoutY="12.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 5 0 0 5; -fx-border-color: gray white gray gray; -fx-border-radius: 5 0 0 5;" text="-" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="12.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField alignment="CENTER" layoutX="517.0" layoutY="12.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #fff; -fx-background-radius: 0; -fx-border-color: gray;" text="1" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="12.0" />
+      <Button layoutX="685.0" layoutY="12.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #f5f5f5; -fx-background-radius: 0 5 5 0; -fx-border-color: gray gray gray white; -fx-border-radius: 0 5 5 0;" text="+" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="12.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow color="#00000080" />
+   </effect>
+   <padding>
+      <Insets right="10.0" />
+   </padding>
+</AnchorPane>

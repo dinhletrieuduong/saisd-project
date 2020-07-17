@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="8.0" layoutY="9.0" prefHeight="62.0" prefWidth="905.0" style="-fx-background-color: #43d6b5; -fx-background-radius: 5;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label layoutX="14.0" layoutY="13.0" text="IKIT">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <effect>
+                  <Glow level="0.48" />
+               </effect>
+            </Label>
+            <Label layoutX="69.0" layoutY="21.0" text="Thương hiệu quen thuộc với mọi nhà" textFill="#2e2d2d" underline="true">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="795.0" layoutY="15.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #435c61; -fx-background-radius: 5;" text="Đăng xuất" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="ButtProfile" fitHeight="30.0" fitWidth="30.0" layoutX="747.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ButtCart" fitHeight="30.0" fitWidth="30.0" layoutX="701.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/shopping-cart.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="307.0" layoutY="18.0" prefHeight="26.0" prefWidth="345.0" promptText="Tìm kiếm....." style="-fx-background-color: WHITE;" />
+            <ImageView fx:id="ButtSearch" fitHeight="26.0" fitWidth="30.0" layoutX="653.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/search.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="8.0" layoutY="71.0" prefHeight="490.0" prefWidth="905.0" style="-fx-background-color: #fff;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <VBox>
+               <children>
+                  <HBox prefHeight="538.0" prefWidth="905.0">
+                     <children>
+                        <AnchorPane prefWidth="420.0">
+                           <children>
+                              <ImageView cache="true" fitHeight="400.0" fitWidth="300.0" layoutX="60.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="10.0">
+                                 <image>
+                                    <Image url="@images/iphone.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane HBox.hgrow="ALWAYS">
+                           <children>
+                              <VBox layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="430.0" spacing="10.0">
+                                 <children>
+                                    <AnchorPane>
+                                       <children>
+                                          <Text layoutX="1.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="iPhone 11 Pro 64GB">
+                                             <font>
+                                                <Font size="24.0" />
+                                             </font>
+                                          </Text>
+                                          <VBox layoutY="25.5" spacing="10.0">
+                                             <children>
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="⭐️⭐️⭐️⭐️⭐️73 đánh giá" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thương hiệu: Apple" />
+                                                <Text fill="#f84068" strokeType="OUTSIDE" strokeWidth="0.0" text="14.999.999 VND" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mã Quốc Tế: LL/ZA/ZP/.." />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nguyên seal, Mới 100%, Chưa Active" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Thiết kế: Nguyên khối" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Màn hình: 6.1 inch LCD (828 x 1792), 324 ppi, 3D touch, True-tone" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Camera Trước/Sau: 7MP / 12MP" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CPU: A12 Binonic 64-bit 7nm" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bộ Nhớ: 64GB" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="RAM: 3GB" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SIM: Nano Sim, eSim" />
+                                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tính năng: Chống nước, chống bụi, Face ID" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                    </AnchorPane>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <HBox prefWidth="430.0" spacing="20.0">
+                                             <children>
+                                                <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                                                   <children>
+                                                      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Số lượng:">
+                                                         <VBox.margin>
+                                                            <Insets left="5.0" />
+                                                         </VBox.margin>
+                                                      </Text>
+                                                      <HBox alignment="TOP_CENTER" prefWidth="150.0" spacing="5.0">
+                                                         <children>
+                                                            <Button mnemonicParsing="false" style="-fx-background-color: #fff; -fx-border-color: #ccc; -fx-border-radius: 5;" text="-">
+                                                               <opaqueInsets>
+                                                                  <Insets />
+                                                               </opaqueInsets>
+                                                            </Button>
+                                                            <TextField alignment="CENTER" prefWidth="40.0" text="1">
+                                                               <HBox.margin>
+                                                                  <Insets top="1.0" />
+                                                               </HBox.margin>
+                                                            </TextField>
+                                                            <Button layoutX="34.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: #fff; -fx-border-color: #ccc; -fx-border-radius: 5;" text="+">
+                                                               <opaqueInsets>
+                                                                  <Insets />
+                                                               </opaqueInsets>
+                                                            </Button>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </VBox>
+                                                <VBox prefWidth="100.0" spacing="10.0">
+                                                   <children>
+                                                      <Button mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #43d6b5 #43d6b5;" text="Chon mua" textFill="WHITE" />
+                                                      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #189EFF;" text="Tra gop" textFill="WHITE" />
+                                                   </children>
+                                                   <padding>
+                                                      <Insets top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" />
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

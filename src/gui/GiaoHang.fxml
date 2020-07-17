@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="8.0" layoutY="9.0" prefHeight="62.0" prefWidth="905.0" style="-fx-background-color: #43d6b5; -fx-background-radius: 5;" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="9.0">
+         <children>
+            <Label fx:id="Butt" layoutX="14.0" layoutY="13.0" text="IKIT" AnchorPane.leftAnchor="14.0">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <effect>
+                  <Glow level="0.48" />
+               </effect>
+            </Label>
+            <Button layoutX="795.0" layoutY="15.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #435c61; -fx-background-radius: 5;" text="Đăng xuất" textFill="WHITE" AnchorPane.rightAnchor="20.200000000000017">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="ButtProfile" fitHeight="30.0" fitWidth="30.0" layoutX="747.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="128.60000000000002">
+               <image>
+                  <Image url="@../Images/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ButtCart" fitHeight="30.0" fitWidth="30.0" layoutX="702.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="173.60000000000002">
+               <image>
+                  <Image url="@../Images/shopping-cart.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="TextfieldSearch" layoutX="307.0" layoutY="18.0" prefHeight="26.0" prefWidth="345.0" promptText="Tìm kiếm....." style="-fx-background-color: WHITE;" AnchorPane.leftAnchor="307.0" AnchorPane.rightAnchor="253.0" />
+            <ImageView fx:id="ButtSearch" fitHeight="26.0" fitWidth="30.0" layoutX="653.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="226.60000000000002">
+               <image>
+                  <Image url="@../Images/search.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="66.0" layoutY="20.0" text="Thương hiệu quen thuộc với mọi nhà" textFill="#2e2d2d" underline="true" AnchorPane.leftAnchor="66.0">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="19.5999755859375" endY="306.6000061035156" layoutX="629.0" layoutY="206.0" startX="19.5999755859375" startY="-85.4000015258789" />
+      <AnchorPane layoutX="668.0" layoutY="79.0" prefHeight="484.0" prefWidth="244.0" style="-fx-background-color: #ebebeb; -fx-background-radius: 5;" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="668.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="79.0">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" text="Hóa đơn">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="86.39996337890625" layoutX="113.0" layoutY="65.0" startX="-100.0" AnchorPane.leftAnchor="11.89996337890625" AnchorPane.rightAnchor="54.500036621093756" />
+            <FlowPane fx:id="FlowPaneCart" layoutX="14.0" layoutY="78.0" prefHeight="274.0" prefWidth="226.0" AnchorPane.bottomAnchor="114.0" AnchorPane.rightAnchor="14.0" />
+            <Line endX="100.0" layoutX="115.0" layoutY="371.0" startX="-100.0" />
+            <Label layoutX="15.0" layoutY="386.0" text="Tổng tiền:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="92.0" layoutY="387.0" prefHeight="18.0" prefWidth="151.0" text="/*Tổng tiền*/" underline="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="115.0" layoutY="429.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #c4ffef; -fx-background-radius: 5;" text="Tiếp theo" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="115.0" AnchorPane.rightAnchor="6.599999999999994">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="88.0" prefHeight="476.0" prefWidth="622.0" style="-fx-background-color: #ebebeb; -fx-background-radius: 5;" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="88.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Cập nhật địa chỉ" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TextfieldDiaChi" layoutX="33.0" layoutY="51.0" prefHeight="26.0" prefWidth="550.0" promptText="Địa chỉ" />
+            <Line endX="495.0" layoutX="115.0" layoutY="95.0" startX="-100.0" />
+            <Label layoutX="14.0" layoutY="121.0" text="Cập nhật số điện thoại" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Line endX="495.0" layoutX="113.0" layoutY="206.0" startX="-100.0" />
+            <RadioButton layoutX="35.0" layoutY="258.0" mnemonicParsing="false" text="Thanh toán khi nhận hàng">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="Payments" />
+               </toggleGroup>
+            </RadioButton>
+            <Label layoutX="15.0" layoutY="224.0" text="Chọn phương thức thanh toán" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <RadioButton layoutX="35.0" layoutY="288.0" mnemonicParsing="false" text="Thanh toán online" toggleGroup="$Payments">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </RadioButton>
+            <TextField fx:id="TextfieldSoDienThoai" layoutX="33.0" layoutY="159.0" prefHeight="26.0" prefWidth="550.0" promptText="Số diện thoại" />
+            <Line endX="495.0" layoutX="113.0" layoutY="335.0" startX="-100.0" />
+            <Label layoutX="15.0" layoutY="344.0" text="Ghi chú" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="33.0" layoutY="371.0" prefHeight="88.0" prefWidth="550.0" promptText="Ghi chú thêm..." AnchorPane.bottomAnchor="17.0" AnchorPane.leftAnchor="33.0" AnchorPane.topAnchor="371.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="350.0" prefWidth="400.0" style="-fx-background-color: #43d6b5;" type="AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="50.0" layoutY="40.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: #FFF;">
+               <children>
+                  <VBox alignment="TOP_CENTER" fillWidth="false" spacing="10.0" style="-fx-background-radius: 10;">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="65.0" prefWidth="300.0" style="-fx-background-color: #fff;" text="Đăng nhập">
+                           <font>
+                              <Font name="Times New Roman Bold" size="36.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <AnchorPane>
+                                 <children>
+                                    <TextField fx:id="fieldUsername" prefHeight="25.0" prefWidth="240.0" promptText="Tên tài khoản">
+                                       <font>
+                                          <Font name="Times New Roman" size="13.0" />
+                                       </font>
+                                    </TextField>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <AnchorPane>
+                                 <children>
+                                    <PasswordField fx:id="pwdfieldPassword" prefHeight="25.0" prefWidth="240.0" promptText="Mật khẩu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <DropShadow color="#00000099" />
+               </effect>
+            </AnchorPane>
+            <AnchorPane>
+               <children>
+                  <VBox prefHeight="41.0" prefWidth="300.0" spacing="10.0">
+                     <children>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#loginNow" prefWidth="260.0" style="-fx-background-color: #c4ffef; -fx-background-radius: 5;" text="Mua sắm ngay!">
+                                 <font>
+                                    <Font name="System Bold" size="17.0" />
+                                 </font>
+                                 <effect>
+                                    <DropShadow color="#00000080" />
+                                 </effect>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" spacing="10.0">
+                           <children>
+                              <Label text="Không có tài khoản?" textFill="WHITE">
+                                 <font>
+                                    <Font name="Times New Roman" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label text="Đăng ký" textFill="WHITE" underline="true">
+                                 <font>
+                                    <Font name="Times New Roman Italic" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</fx:root>

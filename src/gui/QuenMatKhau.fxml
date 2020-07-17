@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root prefHeight="382.0" prefWidth="500.0" style="-fx-background-color: #43d6b5;" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="171.0" layoutY="20.0" style="-fx-background-color: #fff; -fx-background-radius: 5;" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <effect>
+            <DropShadow color="#00000080" />
+         </effect>
+         <children>
+            <AnchorPane>
+               <children>
+                  <Label layoutX="62.0" layoutY="14.0" text="Quên mật khẩu" AnchorPane.bottomAnchor="133.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="50.0" layoutY="140.0" prefWidth="300.0" promptText="Địa chỉ Email" AnchorPane.bottomAnchor="22.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="140.0" />
+                  <Label layoutX="62.0" layoutY="54.0" prefHeight="30.0" prefWidth="300.0" text="Đừng lo, bạn hãy điền địa chỉ email đã đăng ký, chúng tôi sẽ gửi thông tin cho bạn" textAlignment="JUSTIFY" wrapText="true" AnchorPane.bottomAnchor="93.0" AnchorPane.leftAnchor="62.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="54.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Button layoutX="120.0" layoutY="270.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="260.0" style="-fx-background-color: #ceffef;" text="Tiếp theo" textFill="#024334a6" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="292.0">
+         <effect>
+            <DropShadow color="#00000080" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</fx:root>
